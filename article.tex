@@ -1,0 +1,23 @@
+\documentclass{article}
+
+\usepackage{xcolor}
+\usepackage[english]{babel}
+\usepackage{epspdfconversion}
+
+\begin{document}
+
+\begin{figure}[ht]
+    \centering
+    \resizebox{\linewidth}{!}{\input{distribution/distribution.tex}}
+    \caption{particle distribution}
+    \label{fig:particle}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \resizebox{\linewidth}{!}{\input{distribution/linearization.tex}}
+    \caption{linearized curve}
+    \label{fig:linearized}
+\end{figure}
+
+\end{document}
